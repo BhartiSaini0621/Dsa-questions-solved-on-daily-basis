@@ -1,4 +1,23 @@
 //  QUES1:: PRINT MATRIX IN SNAKE PATTERN
+
+/*Given a matrix of size N x N. Print the elements of the matrix in the snake like pattern depicted below.
+    10->20->30->40->
+    50<-60<-70<-80<--
+  ->27->29->47->48
+    32<-33<-39<-50<--
+    Input:
+    N = 3 
+    matrix[][] = {{45, 48, 54},
+             {21, 89, 87}
+             {70, 78, 15}}
+    Output: 45 48 54 87 89 21 70 78 15 
+    Explanation:
+    Matrix is as below:
+    45 48 54
+    21 89 87
+    70 78 15
+    Printing it in snake pattern will lead to 
+    the output as 45 48 54 87 89 21 70 78 15. */
 //{ Driver Code Starts
 #include <bits/stdc++.h> 
 using namespace std; 
