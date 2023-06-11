@@ -90,6 +90,19 @@ int main() {
 
 
 // QUES2:: TRANSPOSE OF MATRIX
+ /* Write a program to find the transpose of a square matrix of size N*N. Transpose of a matrix is obtained by changing rows to columns and columns to rows.
+    Input:
+    N = 4
+    mat[][] = {{1, 1, 1, 1},
+              {2, 2, 2, 2}
+              {3, 3, 3, 3}
+              {4, 4, 4, 4}}
+    Output: 
+    {{1, 2, 3, 4},  
+    {1, 2, 3, 4}  
+    {1, 2, 3, 4}
+    {1, 2, 3, 4}} */
+
 //{ Driver Code Starts
 #include <bits/stdc++.h> 
 using namespace std; 
